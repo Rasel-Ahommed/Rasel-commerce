@@ -1,5 +1,7 @@
-
-.carousel-inner{
+.container{
+	margin-bottom: 100px;
+}
+.orange-beg{
 background: #feeae9;
 }
 .carousel-item{
@@ -16,4 +18,54 @@ background: #feeae9;
 	border-radius: 8px;
 	cursor: pointer;
 
+}
+
+						/*categories start*/
+
+.cat1, .cat2, .cat3{
+padding: 10px 30px;
+border-radius: 10px;
+}
+.cat1{
+	background: orange;
+}
+.cat2{
+	background: orchid;
+}
+.cat3{
+	background: blue;
+}
+.categories h1{
+	color: white;
+}
+.categories img{
+	width: 100px;
+}
+						/*shoes section start*/
+
+.card{
+	border: none;
+	box-shadow: 5px 5px 10px lightgrey;
+}
+.card-footer{
+	border: none;
+	background: white;
+}
+
+						/*shoes section end*/
+
+						/*Subscribe section start*/
+
+#Subscribe{
+	height: 300px;
+}
+#Subscribe h6{
+	color: gray;
+}
+
+						/*Subscribe section end*/
+
+						/*footer start*/
+footer{
+	text-align: center;
 }
